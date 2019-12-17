@@ -20,7 +20,7 @@
     "json-fs-store": "^1.0.1",
     "lodash.isempty": "^4.4.0",
     "lodash.isequal": "^4.5.0",
-    "mongoose": "^4.13.6",
+    "mongoose": "^5.8.1",
     "nedb": "^1.8.0",
     "node-json-db": "^1.0.1",
     "node-persist": "^3.0.5",
