@@ -1,0 +1,13 @@
+version: '3'
+services:
+    mongo:
+        build:
+            context: .
+            dockerfile: mongo.docker
+        image: mongodbimg
+        ports:
+            - '27017:27017'
+        volumes:
+            - ./mongod.conf:/etc/mongod.conf
+            - ./data:/var/lib/mongodb
+        restart: always

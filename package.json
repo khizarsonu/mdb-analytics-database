@@ -1,0 +1,31 @@
+{
+  "name": "mdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node dtest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://parth@e2e-14-66.e2enetworks.net.in/parth/mdb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0",
+    "json-fs-store": "^1.0.1",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isequal": "^4.5.0",
+    "mongoose": "^4.13.6",
+    "nedb": "^1.8.0",
+    "node-json-db": "^1.0.1",
+    "node-persist": "^3.0.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "test-bugger": "^2.2.2"
+  }
+}
